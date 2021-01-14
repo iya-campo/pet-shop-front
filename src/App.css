@@ -1,38 +1,86 @@
-.App {
+body {
+  background-color: #f1f1f1 !important;
+}
+
+label {
+  font-weight: 700;
+  margin: 0 !important;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 700 !important;
+}
+
+button {
+  border: 0 !important;
+  border-radius: 16px !important;
+  background-color: rgb(179, 179, 179) !important;
+}
+
+button:hover {
+  background-color: rgb(143, 142, 142) !important;
+}
+
+button.male {
+  background-color: rgb(65, 134, 173) !important;
+}
+
+button.male:hover {
+  background-color: rgb(47, 116, 156) !important;
+}
+
+button.female {
+  background-color: rgb(207, 115, 153) !important;
+}
+
+button.female:hover {
+  background-color: rgb(185, 84, 126) !important;
+}
+
+.container {
+  width: 800px !important;
+  padding: 10px 0;
+}
+
+header {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header input {
+  border: 0 !important;
+  border-radius: 16px !important;
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.pet {
+  margin: 10px 0;
+  padding: 10px;
+  border: 0 !important;
+  border-radius: 16px !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.pet-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 16px !important;
+  background-position: center;
+  background-size: cover;
 }
 
-.App-link {
-  color: #61dafb;
+.pet-info {
+  padding: 0 15px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.gender {
+  font-style: italic;
+}
+
+.gender.male {
+  color: rgb(81, 144, 180);
+}
+
+.gender.female {
+  color: rgb(207, 115, 153);
 }
